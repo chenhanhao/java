@@ -29,11 +29,6 @@ public class Go implements Runnable{
 	
 	
 	Go(JTextArea textArea1,JTextArea textArea2,Label[] label){
-		try {
-			robot = new Robot();
-		} catch (AWTException e) {
-			e.printStackTrace();
-		}
 		this.textArea1 = textArea1;
 		this.textArea2 = textArea2;
 		this.label = label;
